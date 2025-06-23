@@ -1,0 +1,5 @@
+#!/bin/bash
+
+rm -rf kjv-bible/www/*
+# cp kjv-vue/.bak/config.xml kjv-bible/config.xml
+cp -R kjv-vue/dist/* kjv-bible/www

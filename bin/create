@@ -1,0 +1,6 @@
+#!/bin/bash
+
+rm -rf kjv-bible
+cordova create kjv-bible io.pitsolu.bible kjv-bible
+(cd kjv-bible; cordova platform add android)
+(cd kjv-bible; cordova platform add browser)

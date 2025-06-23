@@ -1,0 +1,6 @@
+#!/bin/bash
+
+mkdir -p .bak/apk
+[ -f bible*.apk ] && mv bible*.apk .bak/apk
+timestamp=$(date +%s)
+cp kjv-bible/platforms/android/app/build/outputs/apk/debug/app-debug.apk bible-${timestamp}.apk

@@ -1,0 +1,3 @@
+#!/bin/bash
+
+(cd kjv-vue; npm run build)

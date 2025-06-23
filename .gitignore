@@ -1,0 +1,14 @@
+/.bak/apk
+/.formats
+/.idea
+/.repos
+/kjv-bible
+/kjv-vue
+*.apk
+/bible.sublime-project
+/bible.sublime-workspace
+/kjv-xml/.bak
+/kjv-xml/out
+/kjv-xml/books.json
+/kjv-xml/.bak/en_kjv.xml
+/kjv-xml/en_kjv1.xml

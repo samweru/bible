@@ -1,0 +1,3 @@
+#!/bin/bash
+
+pm2 start "(cd kjv-bible; cordova run browser)" --name kjv-cordova
