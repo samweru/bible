@@ -1,0 +1,3 @@
+#!/bin/bash
+
+(cd kjv-bible; cordova plugin add cordova-plugin-local-notification)
