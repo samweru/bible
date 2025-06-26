@@ -2,4 +2,4 @@
 
 timestamp=$(date +%s)
 
-cat docs/suggestions/time.json | jq ' . |= [{"time": "'$timestamp'", "theme": "'$1'"}] +.' > docs/suggestions/time.json
+echo $timestamp
